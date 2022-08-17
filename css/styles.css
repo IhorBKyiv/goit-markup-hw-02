@@ -1,0 +1,89 @@
+:root{
+    --primary-text-color:#757575;
+    --accent-color:#2196F3;
+    --secondary-text-color:#212121;
+    --primary-white-color:#FFFFFF;
+}
+
+/* Styles index.html */
+.page{
+    color:var(--primary-text-color);
+    background-color:var(--primary-white-color);
+}
+
+/* site-nav */
+.list {
+    list-style: none;
+}
+
+.site-nav .link{
+    color: var(--secondary-text-color);
+}
+
+.site-nav .link:hover, .site-nav .link:focus{
+    color: var(--accent-color);
+}
+
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+
+/* contacts*/
+
+.contacts .link{
+    color: var(--primary-text-color);
+}
+
+.contacts .link:hover, .contacts .link:focus{
+    color: var(--accent-color);
+}
+/* hero */
+
+.hero{
+    background-color:#2F303A;
+}
+.hero-title{
+    color:var(--primary-white-color);
+}
+
+/* button */
+.button{
+color: var(--primary-white-color);
+background-color: var(--accent-color);
+}
+
+
+.section-title{
+    color:var(--secondary-text-color);
+}
+
+/* feature */
+.feature-list .title{
+    color:var(--secondary-text-color);
+}
+
+/* whatWeDo */
+
+/* ourTeam */
+.team-list .title{
+    color: var(--secondary-text-color);
+}
+
+/* adress */
+.adress-list .link{
+    color
+}
+
+/* Styles portfolio */
+
+/* основний колір тексту #757575 */
+
+/* другорядний колір тексту #212121*/
+
+/* білий колір #FFFFFF */
+
+/* колір адреси rgba (255, 255, 255, 0,6) */
+
+/* колір акценту #2196F3 */
+
+/* другорядний колір фону (наша команда) #F5F4FA */
